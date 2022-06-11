@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <form onsubmit="return clickSubmit()" id="form_input" >
+    <label for="fname_input">Enter your first name</label>
+    <input type="text" id="fname_input" placeholder="Enter your first name" maxlength="10" required  >
+    <br>
+    <label for="lname_input">Enter your last name</label>
+    <input type="text" id="lname_input" placeholder="Enter your last name" maxlength="10" required>
+    <br>
+    <label for="date_input">Enter your birth date</label>
+    <input type="date" id="date_input" placeholder="Enter your birth date">
+    <br>
+    <label for="email_input">Enter your email</label>
+    <input type="email" id="email_input" placeholder="Enter your email">
+    <br>
+    <label for="tel_input">Enter your phone number</label>
+    <input type="tel" id="tel_input" placeholder="Enter your phone number" maxlength="10">
+    <br>
+    <label for="password1_input">Enter password</label>
+    <input type="password" id="password1_input" placeholder="Enter password">
+    <br>
+    <label for="password2_input">Enter password again</label>
+    <input type="password" id="password2_input" placeholder="Enter password again">
+    <br>
+    <button>SEND</button>
+</form>
+    <script src="main.js"></script>
+
+     <!-- <form onsubmit="return checkPassWord()"> תמחק את זה אחר כך
+        type password : <input type="text" name="password" id="password">
+        type password Again: <input type="text" name="passwordAgain" id="passwordAgain">
+        <button id="submitBtn" type="submit">send</button>
+    </form> -->
+
+</body>
+</html>
